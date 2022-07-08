@@ -1,0 +1,25 @@
+{
+  "blog": [
+    {
+      "title": "SpaceX asks Starlink customers for support in wireless battle with Dish",
+      "body": "lorem....",
+      "author": " Loren Grush and Jacob Kastrenakes ",
+      "imageLink": "./img/wireless.webp",
+      "id": 1
+    },
+    {
+      "title": "Sony has another PlayStation 5 restock you can queue up for right now",
+      "body": "lorem....",
+      "author": "Antonio G. Di Benedetto",
+      "imageLink": "./img/ps5.webp",
+      "id": 2
+    },
+    {
+      "title": "The Ghostbusters: Afterlife sequel is set for release in December 2023",
+      "body": "lorem....",
+      "author": "Richard Lawler",
+      "imageLink": "./img/ghostbuster.webp",
+      "id": 3
+    }
+  ]
+}

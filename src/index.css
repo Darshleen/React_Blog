@@ -1,13 +1,112 @@
-body {
+/*  global style--------------- */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Moonrocks&display=swap');
+
+*{
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
+  color: #333;
+  font-family:quicksand;
+}
+h2{
+  font-size: 2rem;
+}
+html{
+  font-size: 62.5%;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+/* Navbar --------------navbar.js */
+
+
+.nav{
+  display: flex;
+  align-items: center ;
+  padding: 20px;
+  margin: 0 auto;
+  max-width: 800px;
+  border-bottom: 1px solid #f2f2f2;
+}
+.nav h1{
+  background:linear-gradient(to right,#12fbff,#f35212be);
+  background-clip:text;
+  -webkit-text-fill-color: transparent;
+  font-family: 'Rubik Moonrocks', cursive;
+  font-size: 4rem;
+}
+.nav .links{
+margin-left: auto;
+}
+.secondLink{
+  background:linear-gradient(60deg,#11e7eb,#ee9673);
+  color: rgb(255, 254, 254);
+  border-radius: 20px 3px 20px 10px;
+}
+.nav a{
+  text-decoration: none;
+  margin-left: 16px;
+  padding: 6px; 
+  font-weight: bold;
+  font-size: 2rem;
+}
+.nav a:hover{
+  background:linear-gradient(to left,#00dbde,#ff5715);
+  background-clip:text;
+  -webkit-text-fill-color: transparent;
+  transition: all 0.5s ease-out;
+}
+
+
+/*   content class on App.js--------------- */
+.content{
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+/* blog-preview ---------------home.js */
+.blogPre{
+  display: flex;
+  border-top: 0.1rem solid #f2f2f2 ;
+  margin-bottom:10px;
+  padding-bottom:10px;
+}
+.blog-des{
+  padding:5px 0px 0px 20px;
+}
+.blog-img img{
+  width: 190px;
+  height: 106px;
+  border-radius: 10px 0px 10px 10px;
+}
+
+.blog-des p{
+  font-size: 1.5rem;
+  padding-top: 25px;
+  /* padding-left: 10px; */
+}
+
+.blogPre span{
+  color: #fd753f;
+}
+.blogPre:hover{
+  box-shadow: 0.2rem 0.2rem 2.5rem -1.4rem black;
+  transform: translateX(-0.5rem);
+  transition: all 0.4s ease-in-out;
+  border-radius: 20px;
+  cursor:pointer;
+
+}
+.blogPre h2:hover{
+  color: #0eb9b3;
+  
+}
+.blogPre p span:hover{
+  color: #ce4a15;
+}
+.gif{
+  position: absolute;
+  top: 15%;
+  left: 30%;
 }

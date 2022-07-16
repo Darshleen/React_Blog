@@ -33,25 +33,30 @@ html{
   background-clip:text;
   -webkit-text-fill-color: transparent;
   font-family: 'Rubik Moonrocks', cursive;
-  font-size: 4rem;
+  font-size: 4.5rem;
 }
 .nav .links{
 margin-left: auto;
 }
 .secondLink{
-  background:linear-gradient(60deg,#11e7eb,#ee9673);
+  /* background:linear-gradient(60deg,#11e7eb,#ee9673);
   color: rgb(255, 254, 254);
-  border-radius: 20px 3px 20px 10px;
+  border-radius: 20px 3px 20px 10px; */
+  background:linear-gradient(to left,#00dbde,#ff5715);
+  background-clip:text;
+  -webkit-text-fill-color: transparent;
+  transition: all 0.5s ease-out;
 }
 .nav a{
+  color: #515f5f;
   text-decoration: none;
   margin-left: 16px;
   padding: 6px; 
   font-weight: bold;
-  font-size: 2rem;
+  font-size: 2.3rem;
 }
 .nav a:hover{
-  background:linear-gradient(to left,#00dbde,#ff5715);
+  background:linear-gradient(to right,#00dbde,#ff5715);
   background-clip:text;
   -webkit-text-fill-color: transparent;
   transition: all 0.5s ease-out;
@@ -75,9 +80,12 @@ margin-left: auto;
 .blog-des{
   padding:5px 0px 0px 20px;
 }
+.blogPre a{
+  text-decoration: none;
+}
 .blog-img img{
   width: 190px;
-  height: 106px;
+  height: 120px;
   border-radius: 10px 0px 10px 10px;
 }
 

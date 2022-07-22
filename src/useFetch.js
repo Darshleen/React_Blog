@@ -25,7 +25,7 @@ import { useEffect, useRef, useState } from "react";
             setError(err.message);
             setIsLoad(false);
           });
-      }, 1000);
+      },2000);
       return () => {
         eff.current = true;
       };

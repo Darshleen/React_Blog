@@ -1,7 +1,7 @@
 /*  global style--------------- */
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Rubik+Moonrocks&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
 *{
   margin: 0;
   padding: 0;
@@ -39,13 +39,11 @@ html{
 margin-left: auto;
 }
 .secondLink{
-  /* background:linear-gradient(60deg,#11e7eb,#ee9673);
-  color: rgb(255, 254, 254);
-  border-radius: 20px 3px 20px 10px; */
   background:linear-gradient(to left,#00dbde,#ff5715);
   background-clip:text;
   -webkit-text-fill-color: transparent;
   transition: all 0.5s ease-out;
+  
 }
 .nav a{
   color: #515f5f;
@@ -114,7 +112,82 @@ margin-left: auto;
   color: #ce4a15;
 }
 .gif{
-  position: absolute;
-  top: 15%;
-  left: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* in artical or blogDetails */
+article h2{
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 3rem;
+  width: 100%;
+  line-height: 4rem;
+  padding-bottom: 1.5rem;
+}
+article .auth{
+  font-size: 1.7rem;
+  padding-bottom: 2rem;
+  margin-bottom: 2rem;
+  border-bottom:0.1rem solid #bdc7c63e ;
+}
+.auth span{
+  color: #fd753f;
+}
+article img{
+  width: 750px;
+  height: 500px;
+}
+.blogBody{
+  border-top:0.1rem solid #6e87873e;
+  font-size: 1.8rem;
+  padding-top: 5rem;
+  margin-top: 3rem;
+}
+
+/* add blog part   &&   Create.js file */
+
+.create{
+  max-width: 400px;
+  margin:0 auto;
+  text-align: center;
+}
+.create h2{
+  color:#16d7d1;
+  margin-bottom:3rem ;
+  font-size: 2.6rem;
+}
+.create label{
+  text-align: left;
+  display: block;
+  font-size: 1.7rem;
+  font-weight: 500;
+}
+.create input,.create textarea,.create select{
+  display: block;
+  width: 100%;
+  padding: 10px 4px;
+  margin: 10px 0 20px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px
+}
+.create button{
+  background:#16d7d19f;
+  border:none;
+  color: #fffefe;
+  padding: 10px 10px;
+  border-radius: 1rem;
+  margin: 20px;
+  font-size: 1.6rem;
+  cursor: pointer;
+}
+article button{
+  background:#16d7d195;
+  border:none;
+  color: #fffefe;
+  padding: 10px 10px;
+  border-radius: 1rem;
+  margin: 20px;
+  font-size: 1.6rem;
+  cursor: pointer;
 }

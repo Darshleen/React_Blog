@@ -11,7 +11,7 @@ const Home = () => {
           <img src={require("./img/block.gif")} alt="" />
         </div>
       )}
-      {blog && <BlogList blog={blog} title="All blogs" />}
+      {blog && <BlogList blog={blog} />}
     </section>
   );
 };

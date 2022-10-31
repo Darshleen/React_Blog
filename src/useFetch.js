@@ -25,7 +25,8 @@ import { useEffect, useRef, useState } from "react";
             setError(err.message);
             setIsLoad(false);
           });
-      },2000);
+          // time for delay gif
+      });
       return () => {
         eff.current = true;
       };

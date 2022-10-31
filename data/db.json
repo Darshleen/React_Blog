@@ -21,32 +21,8 @@
       "body": "If you don't feel like sending a POST request for every object you want to generate, you can simply specify how many objects you want using the n query parameter at the end of the url. For example, if we wanted to generate 10 integers, we could do this:If you don't feel like sending a POST request for every object you want to generate, you can simply specify how many objects you want using the n query parameter at the end of the url. For example, if we wanted to generate 10 integers, we could do this:If you don't feel like sending a POST request for every object you want to generate, you can simply specify how many objects you want using the n query parameter at the end of the url. For example, if we wanted to generate 10 integers, we could do this:If you don't feel like sending a POST request for every object you want to generate, you can simply specify how many objects you want using the n query parameter at the end of the url. For example, if we wanted to generate 10 integers, we could do this:If you don't feel like sending a POST request for every object you want to generate, you can simply specify how many objects you want using the n query parameter at the end of the url. For example, if we wanted to generate 10 integers, we could do this:If you don't feel like sending a POST request for every object you want to generate, you can simply specify how many objects you want using the n query parameter at the end of the url. For example, if we wanted to generate 10 integers, we could do this:If you don't feel like sending a POST request for every object you want to generate, you can simply specify how many objects you want using the n query parameter at the end of the url. For example, if we wanted to generate 10 integers, we could do this:If you don't feel like sending a POST request for every object you want to generate, you can simply specify how many objects you want using the n query parameter at the end of the url. For example, if we wanted to generate 10 integers, we could do this:If you don't feel like sending a POST request for every object you want to generate, you can simply specify how many objects you want using the n query parameter at the end of the url. For example, if we wanted to generate 10 integers, we could do this:If you don't feel like sending a POST request for every object you want to generate, you can simply specify how many objects you want using the n query parameter at the end of the url. For example, if we wanted to generate 10 integers, we could do this: ",
       "author": "Richard Lawler",
       "imageLink": "./img/ghostbuster.webp",
-      "mainImage": "./img/ghost_main",
+      "mainImage": "./img/ghost_main.webp",
       "id": "3"
-    },
-    {
-      "title": "asdasd",
-      "body": "asdsadasd",
-      "author": "chris evan",
-      "imageLink": "",
-      "mainImage": "",
-      "id": "5HHaeLr"
-    },
-    {
-      "title": "sadsadsa",
-      "body": "sadasda",
-      "author": "henry park",
-      "imageLink": "",
-      "mainImage": "",
-      "id": "BZBWOsk"
-    },
-    {
-      "title": "dsff",
-      "body": "sdfsdf",
-      "author": "henry park",
-      "imageLink": "",
-      "mainImage": "",
-      "id": "X8SEKFC"
     }
   ]
 }

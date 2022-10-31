@@ -2,7 +2,7 @@
 import BlogList from "./BlogList";
 import useFetch from "./useFetch";
 const Home = () => {
-  const {data:blog,isLoad,error}=useFetch("http://localhost:8000/blog");
+  const {data:blog,isLoad,error}=useFetch("http://localhost:8070/blog");
   return (
     <section className="homePage">
       {error && <div>{error}</div>}

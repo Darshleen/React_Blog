@@ -1,7 +1,7 @@
 /*  global style--------------- */
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Rubik+Moonrocks&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
 *{
   margin: 0;
   padding: 0;
@@ -25,15 +25,19 @@ html{
   align-items: center ;
   padding: 20px;
   margin: 0 auto;
-  max-width: 800px;
+  max-width: 1000px;
   border-bottom: 1px solid #f2f2f2;
 }
 .nav h1{
   background:linear-gradient(to right,#12fbff,#f35212be);
   background-clip:text;
   -webkit-text-fill-color: transparent;
-  font-family: 'Rubik Moonrocks', cursive;
+  font-family: 'Permanent Marker', cursive;
   font-size: 4.5rem;
+  font-weight: 500;
+}
+.icon-main img{
+  width: 110px;
 }
 .nav .links{
 margin-left: auto;
@@ -63,9 +67,9 @@ margin-left: auto;
 
 /*   content class on App.js--------------- */
 .content{
-  max-width: 800px;
+  max-width: 1000px;
   margin: 40px auto;
-  padding: 20px;
+  padding: 10px;
 }
 
 /* blog-preview ---------------home.js */
@@ -139,10 +143,12 @@ article img{
   height: 500px;
 }
 .blogBody{
-  border-top:0.1rem solid #6e87873e;
+  border-top:0.1rem solid #bdc7c63e;
   font-size: 1.8rem;
   padding-top: 5rem;
+  padding-bottom: 5rem;
   margin-top: 3rem;
+  border-bottom:0.1rem solid #bdc7c63e ;
 }
 
 /* add blog part   &&   Create.js file */
@@ -187,7 +193,7 @@ article button{
   color: #fffefe;
   padding: 10px 10px;
   border-radius: 1rem;
-  margin: 20px;
+  margin:20px;
   font-size: 1.6rem;
   cursor: pointer;
 }

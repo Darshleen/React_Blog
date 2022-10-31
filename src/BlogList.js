@@ -7,7 +7,7 @@ const BlogList = ({ blog, title }) => {
         <div className="blogPre" key={blog.id}>
           <div className="blog-img">
             <Link to={`/blog/${blog.id}`}>
-              {/* <img src={require(`${blog.imageLink}`)} alt="" />   */}
+              <img src={require(`${blog.imageLink}`)} alt="" />  
             </Link>
           </div>
           <div className="blog-des">

@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.81d31bfa.css",
+    "main.js": "/static/js/main.960c93ea.js",
+    "static/js/787.a3364a65.chunk.js": "/static/js/787.a3364a65.chunk.js",
+    "static/media/giphy (2).gif": "/static/media/giphy (2).0e366c1d505e64153951.gif",
+    "static/media/skill-bg.jpg": "/static/media/skill-bg.87bfc7abe5dd2f0a6202.jpg",
+    "static/media/block.gif": "/static/media/block.e22b38bebe1596336f48.gif",
+    "static/media/giphy.gif": "/static/media/giphy.fe03c37c16fd8ca79209.gif",
+    "static/media/icons8-fire.gif": "/static/media/icons8-fire.c84d9f5ac859e62ecf33.gif",
+    "static/media/wireless.webp": "/static/media/wireless.a8d7885fd169b31caca3.webp",
+    "static/media/ghostbuster.webp": "/static/media/ghostbuster.bcb8738a5a7fbad06bdd.webp",
+    "static/media/ps5.webp": "/static/media/ps5.b92bba095fb116b856d2.webp",
+    "index.html": "/index.html",
+    "main.81d31bfa.css.map": "/static/css/main.81d31bfa.css.map",
+    "main.960c93ea.js.map": "/static/js/main.960c93ea.js.map",
+    "787.a3364a65.chunk.js.map": "/static/js/787.a3364a65.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.81d31bfa.css",
+    "static/js/main.960c93ea.js"
+  ]
+}

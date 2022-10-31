@@ -7,7 +7,7 @@ const BlogDetail = () => {
     data: blog,
     isLoad,
     error,
-  } = useFetch("http://localhost:8000/blog/" + id);
+  } = useFetch("http://localhost:8070/blog/" + id);
   const navigate = useNavigate();
   const handleClick = () => {
     fetch(
@@ -35,7 +35,7 @@ const BlogDetail = () => {
           <p className="auth">
             by <span>{blog.author}</span>
           </p>
-          {/* <img src={require(`${blog.mainImage}`)} alt="" /> */}
+          <img src={require(`${blog.mainImage}`)} alt="" />
           <div className="blogBody">
             <p>{blog.body}</p>
           </div>
